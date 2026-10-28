@@ -1,0 +1,5 @@
+========= FILE 4: Mixed =========
+Normal system operations.
+TROJAN_PATTERN alert!
+Continuing with clean data.
+MALWARE_SIG_001 warning.

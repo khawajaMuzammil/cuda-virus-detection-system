@@ -1,0 +1,2 @@
+This is a test file.
+Contains MALWARE_SIG_001 and some extra text.

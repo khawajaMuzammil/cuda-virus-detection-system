@@ -1,0 +1,27 @@
+SYSTEM ARCHITECTURE DIAGRAM
+============================
+
+[MASTER NODE - Rank 0]
+    ├── File Distribution
+    ├── MPI Coordination
+    └── GPU Acceleration
+        └── CUDA Kernels
+
+[WORKER NODE - Rank 1]
+    ├── Local File Processing
+    └── GPU Pattern Matching
+
+[WORKER NODE - Rank 2]
+    ├── Local File Processing
+    └── GPU Pattern Matching
+
+[WORKER NODE - Rank 3]
+    ├── Local File Processing
+    └── GPU Pattern Matching
+
+DATA FLOW:
+1. Master reads files from uploads/
+2. MPI_Scatter distributes files to workers
+3. Each worker processes with CUDA kernels
+4. MPI_Gather collects detection results
+5. Master generates final report

@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Runtime & Uploads (Prevent uploaded sample viruses/files from syncing to GitHub)
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build directories
+dist/
+build/
+backend/build/
+frontend/build/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Binaries & Shared Libraries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# CUDA / C++ / MPI Artifacts
+*.o
+*.obj
+*.out
+*.exp
+*.lib

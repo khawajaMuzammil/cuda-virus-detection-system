@@ -1,0 +1,6 @@
+========= FILE 1: Infected =========
+This file contains MALWARE_SIG_001 pattern.
+System log data follows...
+TROJAN_PATTERN detected in memory sector.
+Clean data continues here.
+Another MALWARE_SIG_001 instance found.

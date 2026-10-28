@@ -1,0 +1,8 @@
+========= SCAN RESULTS =========
+File: infected1.log
+Threats: 5
+Status: QUARANTINED
+
+File: clean_system.txt
+Threats: 0
+Status: CLEAN

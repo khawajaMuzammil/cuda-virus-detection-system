@@ -1,0 +1,6 @@
+========= FILE 3: Highly Infected =========
+VIRUS_HEADER_X detected at start.
+EXPLOIT_CODE found in buffer.
+BACKDOOR_KEY authentication attempt.
+TROJAN_PATTERN in network packet.
+MALWARE_SIG_001 signature match.

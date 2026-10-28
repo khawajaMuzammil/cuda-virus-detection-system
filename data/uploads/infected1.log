@@ -1,0 +1,6 @@
+========= INFECTED FILE 1 =========
+MALWARE_SIG_001 detected in memory sector 0x7A3F
+System log: TROJAN_PATTERN found in network packet
+Backtrace: EXPLOIT_CODE at address 0x0045BC
+Registry entry: VIRUS_HEADER_X modification
+Suspicious: BACKDOOR_KEY authentication attempt
